@@ -1,0 +1,144 @@
+<!--
+
+Project: westlaw-india
+Module: Legislation.dtd
+Description: The Data Delivery DTD for WL India Central Legislation and Bills XML
+Version: $Revision: 1.7 $
+Author: Indlaw / C051141 - Paul Parkins
+Language: DTD
+Date started: 27/03/2009
+Copyright(c) Thomson Reuters (Legal) Limited 2009
+Notes:
+
+Based on Indlaw's existing Legislation.dtd, but with these changes:
+* Rearranged a little and added a few comments
+* Renamed Date to PublishDate and added CommencementDate for document level dates
+* Added commencementDate attribute to Section for provision-level commencement dates
+* Added IndlawLeg (duplicated from the Cases DTD for Legislation references inline within fulltext)
+* Allow IndlawLeg elements as children of FootNote elements
+* Added SubHeading as a possible child of Section for schedule part/paragraph group structure headings (currently plain inline text)
+* Added ID attributes for: Legislation, Chapter, Section and IndlawLeg
+* Added IndlawLeg as a possible child of Preamble
+* Added the sections attribute to Number (see Number's comment)
+* Wherever either P or NewPara are valid, allow both
+* Sections elements now only contain Section elements, not #PCDATA, FootNoteRef or NewPara elements, and must contain at least one Section
+* Changed Forms and Form elements to the a (HTML anchor) element
+* Removed FootNotes as a child of Legislation - these document-level footnotes are never used
+* Removed unused elements: FootNoteNo, FootNoteRef, FormName, EditHistory, EditorsNote, and their descendents
+
+-->
+
+
+<!--
+	Legislation is the doctype for Central Legislation and Bills.
+-->
+
+<!ELEMENT Legislation (Number, Year, LegislativeBody, PublishDate, CommencementDate?, Title, Status?, Preamble, StatementofObject, Chapters, Laws, Industries, States)>
+<!ATTLIST Legislation
+	id CDATA #REQUIRED
+>
+
+
+<!--
+	Legislation metadata elements.
+-->
+
+<!ELEMENT Year (#PCDATA)>
+<!ELEMENT LegislativeBody (#PCDATA)>
+<!ELEMENT PublishDate (#PCDATA)>
+<!ELEMENT CommencementDate (#PCDATA)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Status (#PCDATA)>
+<!ELEMENT Laws (Law)*>
+<!ELEMENT Law (#PCDATA)>
+<!ELEMENT Industries (Industry)*>
+<!ELEMENT Industry (#PCDATA)>
+<!ELEMENT States (State)*>
+<!ELEMENT State (#PCDATA)>
+
+
+<!--
+	Number is used for various things, one of which is a Section's number.
+	However, this can be a range rather than an individual Section number.
+	When it is a range, the	individual Rule numbers within the range are listed
+	in the sections attribute, comma-separated, e.g.:
+		<Number sections="95,96,97AA,97AB,98ZA,98,99,100,101">95-101</Number>
+-->
+<!ELEMENT Number (#PCDATA)>
+<!ATTLIST Number
+	sections CDATA #IMPLIED
+>
+
+
+<!--
+	Legislation full text content elements.
+-->
+
+<!ELEMENT Preamble (#PCDATA | IndlawLeg | Fn | P | NewPara | FootNotes)*>
+<!ELEMENT StatementofObject (#PCDATA | P | NewPara)*>
+<!ELEMENT Chapters (Chapter+)>
+<!ELEMENT Chapter (Number, Name, Sections)>
+<!ATTLIST Chapter
+	id CDATA #REQUIRED
+>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Sections (Section)+>
+<!ELEMENT Section (#PCDATA | Number | Heading | SubHeading | P | NewPara | a | Fn | FootNotes | Table | IndlawLeg)*>
+<!ATTLIST Section
+	id CDATA #REQUIRED
+	commencementDate CDATA #IMPLIED
+>
+<!ELEMENT Heading (#PCDATA | Fn)*>
+<!ELEMENT SubHeading (#PCDATA)>
+<!ELEMENT NewPara EMPTY>
+<!ELEMENT P EMPTY>
+
+
+<!--
+	PDF reference element. Indlaw editors enter PDF references as HTML a
+	elements. There are no other uses of this element other than references to
+	PDF	files/BLOBs. This works like any other HTML a element - the text to be
+	rendered is the element's content, and the href attribute contains the
+	target of the link - the PDF reference in this case.
+-->
+
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a
+	href CDATA #REQUIRED
+>
+
+
+<!--
+	Footnote elements.
+-->
+
+<!ELEMENT Fn (#PCDATA)>
+<!ELEMENT FootNotes (FootNote)*>
+<!ELEMENT FootNote (#PCDATA | P | NewPara | Table | IndlawLeg)*>
+
+
+<!--
+	Table elements.
+-->
+
+<!ELEMENT Table (TableHeading?, Trh?, Tr+)>
+<!ELEMENT TableHeading (#PCDATA)>
+<!ELEMENT Trh (Td+)>
+<!ELEMENT Tr (Td+)>
+<!ELEMENT Td (#PCDATA | Fn | P | NewPara)*>
+
+
+<!--
+	Citation elements.
+	
+	For UK IndlawLeg citations, the country attribute is "UK". If not defined,
+	the default is Indian Central Legislation - "India".
+-->
+
+<!ELEMENT IndlawLeg (OLeg, FLeg)+>
+<!ATTLIST IndlawLeg
+	id CDATA #REQUIRED
+	country CDATA "India"
+>
+<!ELEMENT OLeg (#PCDATA)>
+<!ELEMENT FLeg (#PCDATA)>

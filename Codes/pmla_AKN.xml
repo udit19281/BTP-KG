@@ -1,0 +1,34 @@
+<akomaNtoso xmlns="http://www.example.org/PreventionOfMoney-LaunderingAct-2005">
+    <act contains="originalVersion">
+<meta>
+<identification source="#somebody"></identification>
+    <references source="...">
+        <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
+    </references>
+</meta>
+<preface>
+    <p>
+        <docType>Public Law</docType>61</p>
+    <p>
+        <docDate date="2005-07-01">Jul. 1, 2005</docDate>
+    </p>
+    <p> An <docType>Act</docType>
+        <docTitle>Prevention of Money-Laundering Act,2002 </docTitle>
+    </p>
+</preface>
+<body>
+    <section id="3">
+<num title="1">1</num>
+    <heading>Offence of Money Laundering</heading>
+    <paragraph id="sct1-par001">
+        <num title="1">(1)</num>
+        <content>
+            <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
+            or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
+            </p>
+        </content>
+    </paragraph>
+</section>
+</body>
+</act>
+</akomaNtoso>

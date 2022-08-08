@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="no"?>
+<!-- edited with XML Spy v3.0.7 (http://www.xmlspy.com) by Achal (Icpl) -->
+<!DOCTYPE Legislation SYSTEM "../../dtd/Legislation.dtd" [
+	<!ENTITY amp "&#38;#38;">
+	<!ENTITY apos "&#39;">
+]>
+<Legislation>
+	<Number>45</Number>
+	<Year>1988</Year>
+	<LegislativeBody>1988Central Legislature</LegislativeBody>
+	<Date>05/09/1988</Date>
+	<Title>Benami Transactions (Prohibition) Act, 1988</Title>
+	<Preamble>An Act to prohibit benami transactions and the right to recover property held benami for matters connected therewith or incidental thereto. BE it enacted by Parliament in the Thirty-ninth Year of the Republic of India as follows:</Preamble>
+	<StatementofObject>(1) To implement the recommendations of the Fifty-seventh Report of the Law Commission in Benami Transactions, the President promulgated the Benami Transactions (Prohibition of the Right to Recover Property) Ordinance, 1988, on the 19th May, 1988.<P/>
+		<P/>(2) The Ordinance provided that no suit, claim or action to enforce any right in respect of any property held benami shall lie and no defence based on any right in respect of any property held benami shall be allowed in any suit, claim or action. It however, made two exceptions regarding property held by a coparcener in a Hindu undivided family for the benefit of the Coparceners and property held by a trustee or other person standing in a fiduciary capacity for the benefit of another person. It also repealed section 82 of the Indian Trusts Act, 1882, section 66 of the Code of Civil Procedure and section 281A of the Income-tax Act, 1961.<P/>
+		<P/>(3) The provisions of the Ordinance received a mixed response from the press and the public. There had been criticism also that the Ordinance was a half-hearted measure and had not tackled the problem effectively and completely. It was, therefore, felt that the Bill to replace the Ordinance may be brought out as a comprehensive law on benami transactions touching all aspects and accordingly, the Law Commission was requested to examine the subject in all its ramifications. The Law Commission has submitted its 130th Report titled "Benami Transactions &amp;#8211; a Continuum" and has made certain recommendations. (4) The Law Commission has, inter alia, recommended the inclusion of the following provisions in the Bill to replace the Ordinance, namely: -<P/>
+		<P/>(i) benami transactions should cover all kinds of property;<P/>(ii) entering into a benami transaction after the commencement of the new law should be declared as an offence. However, an exception should be made for transactions entered into by the husband or father for the transfer of properties in the name of the wife or unmarried daughter for their enefit. By this, the doctrine of advancement as obtaining in the English law will be incorporated into the Indian Statute Book;<P/>(iii) Voluntary organisations should be authorised to file complaints about the entering into of benami transaction and the District Judges should be designated as Tribunals. Even Gram Nayalayas recommended by the Law Commission may also be utilised for this purpose;<P/>(iv) as both the benamidar and the true owner are equal participants to a criminal transaction, by prohibiting the true owner&amp;#8217;s right to recover property held benami as provided in the Ordinance will be provided for an undue enrichment to the benamidar. As such, the Commission has suggested that the properties should be acquired form him by resorting to a procedure analogous to Chapter XXA of the Income-tax Act, 1961.It has been suggested that the same action has to be taken when a benamidar retransfers the property back to the true owner for an apparent or no consideration to circumvent the provisions of the Ordinance;<P/>(v) in addition to section 82 of the Indian Trusts Act, 1882, as provided in the Ordinance, sections 81 and 94 of that Act should also be omitted;<P/>
+		<P/>(4) appointment of an authority, like the Charity Commissioner, for supervising private trusts should be provided for.<P/>
+		<P/>(5) The recommendations of the Law commission have been examined. It is felt that all the recommendations of the Law Commission , except the recommendation regarding authorising voluntary organisations to file complaints before Tribunals and the appointment of an authority , like the Charity Commissioner, for supervising private trusts, may be specifically provided in the Bill, and the other two recommendations would, it is felt, come into effect automatically as a result of the prohibition of benami transactions and the provision for acquisition of all properties held benami. The Bill accordingly provides for the following, among other things, namely: -<P/>(a) entering into benami transactions after the commencement of the new law will be an offence, with an exception for the transfer of properties by the husband or father for the benefit of the wife or unmarried daughters;<P/>(b) all the properties held benami will be subject to acquisition by such authority, in such manner and after following such procedure, as may be prescribed by rules under the proposed legislation. As a result of the provisions of the Ordinance and the prohibition of entering into benami transactions, the benamidar would be acquiring the rights to the property by the mere lending of his name and without investing any money for the purchase of such property. Accordingly, it is provided that no amount shall be payable for the acquisition of any property held benami:<P/>
+		<P/>(c) Sections 81 and 94 of the Indian Trusts Act, 1882, shall also be repealed.</StatementofObject>
+	<Chapters>
+		<Chapter>
+			<Number>CHAPTER I</Number>
+			<Name>PRELIEMINARY</Name>
+			<Sections>
+				<Section>
+					<Number>1</Number>
+					<Heading>Short title, extent and commencement</Heading>(1) This Act may be called the Benami Transactions (Prohibition) Act, 1988.<NewPara/>(2) It extends to the whole of India except the State of Jammu and Kashmir.<NewPara/>(3) The provisions of sections 3, 5 and 8 shall come into force at once, and the remaining provisions of this Act shall be deemed to have come into force on the 19th day of May , 1988.<NewPara/>
+					<NewPara/>
+				</Section>
+				<Section>
+					<Number>2</Number>
+					<Heading>Definitions</Heading>In this Act, unless the context otherwise requires, - (a) "Benami transaction" means any transaction in which property is transferred to one person for a consideration paid or provided by another person: (b) "Prescribed" means prescribed by rules made under this Act; (c) Property means property of any kind, whether movable or immovable, tangible or intangible, and includes any right or interest in such property.<NewPara/>
+				</Section>
+				<Section>
+					<Number>3</Number>
+					<Heading>Prohibition of benami transactions</Heading>(1) No person shall enter into any benami transaction.(2) Nothing in sub-section (1) shall apply to the purchase of property by any person in the name of his wife or unmarried daughter and it shall be presumed, unless the contrary is proved, that the said property had been purchased for the benefit of the wife or the unmarried daughter.<NewPara/>(3) Whoever enters into any benami transaction shall be punishable with imprisonment for a term which may extend to three years or with fine or with both<NewPara/>(4) Notwithstanding anything contained in the Code of Criminal Procedure, 1973 (2of 1974), an offence under this section shall be non-cognizable and bailable.<NewPara/>
+					<NewPara/>
+				</Section>
+				<Section>
+					<Number>4</Number>
+					<Heading>Prohibition of the right to recover property held benami</Heading>
+					<NewPara/>(1) No suit, claim or action to enforce any right in respect of any property held benami against the person in whose name the property is held or against any other person shall lie by or on behalf of a person claiming to be the real owner of such property.(2) No defence based on any right in respect of any property held benami, whether against the person in whose name the property is held or against any other person, shall be allowed in any suit, claim or action by or on behalf of a person claiming to be the real owner of such property. (3) Nothing in this section shall apply - (a) where the person in whose name the property is held is a coparcener in a Hindu undivided family and the property is held for the benefit of the coparceners in the family; or(b) where the person in whose name the property is held is a trustee or other person standing in a fiduciary capacity, and the property is held for the benefit of another person for whom he is a trustee or towards whom he stands in such capacity.<NewPara/>
+					<NewPara/>
+				</Section>
+				<Section>
+					<Number>5</Number>
+					<Heading>Property held benami liable to acquisition</Heading>(1) All properties held benami shall be subject to acquisition by such authority, in such manner and after following such procedure, as may be prescribed.(2) For the removal of doubts, it is hereby declared that no amount be payable for the acquisition of any property under sub-section(1)<NewPara/>
+				</Section>
+				<Section>
+					<Number>6</Number>
+					<Heading>Act not to apply in certain cases</Heading>Nothing in this Act shall affect the provisions of Section 53 of the Transfer of Property Act, 1882 (4 of 1882), or any law relating to transfer for an illegal purpose.<NewPara/>
+					<NewPara/>
+				</Section>
+				<Section>
+					<Number>7</Number>
+					<Heading>Repeal of provisions of certain Acts</Heading>1) Sections 81, 82 and 94 of the Indian Trusts Act, 1882 (2of 1882), section 66 of the Code of Civil Procedure, 1908 (5of 1908), and section 281 A of the Income-tax Act, 1961(43 of 1961). Are hereby repealed.(2) For the removal of doubts, it is hereby declared that nothing in sub-section (1) shall affect the continued operation of section 281 A of the Income -tax Act, 1961 (43 of 1961), in the State of Jammu and Kashmir.<NewPara/>
+				</Section>
+				<Section>
+					<Number>8</Number>
+					<Heading>Power to make rules</Heading>
+					<NewPara/>(1) The Central Government may, by notification in the Official Gazette, make rules for carrying out the purposes of this Act.<NewPara/>(2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:-<NewPara/>(a) the authority competent to acquire properties under section5;(b) the manner in which, and the procedure to be followed for, the acquisition of properties under section5;<NewPara/>(c) any other matter which is required to be, or may be, prescribed (3) Every rule made under this Act shall be laid, as soon as may be after it is made, before each House of Parliament, while it is in session for a total period of thirty days which may be comprised in one session or in two or more successive sessions, and if, before the expiry of the session immediately following the session or the successive sessions aforesaid, both Houses agree in making any modification in the rule or both Houses agree that the rule should not be made, the rule shall thereafter have effect only in such modified form or be of no effect, as the case may be; so, however, that any such modification or annulment shall be without prejudice to the validity of anything previously done under that rule.<NewPara/>
+				</Section>
+				<Section>
+					<Number>9</Number>
+					<Heading>Repeal and saving</Heading>(1) The Benami Transactions (Prohibition of the Right to Recover Property) Ordinance, 1988 (Ordinance 2 of 1988), is hereby repealed.(2) Notwithstanding such repeal, anything done or any action taken under the said Ordinance shall be deemed to have been done or taken under the corresponding provisions of this Act.</Section>
+			</Sections>
+		</Chapter>
+	</Chapters>
+	<FootNotes/>
+	<EditorsNote/>
+	<Laws>
+		<Law>Banking &amp; Finance</Law>
+		<Law>Land &amp; Property</Law>
+		<Law>Socio-Economic</Law>
+		<Law>Income Tax &amp; Direct Taxes</Law>
+	</Laws>
+	<Industries/>
+	<States>
+		<State>Center</State>
+		<State>Others</State>
+	</States>
+</Legislation>
