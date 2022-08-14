@@ -6,29 +6,32 @@
                 <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
             </references>
             <activeRef href="link to the affected document" />
-</meta>
-<preface>
-</preface>
-<amendmentBody>
-<amendmentHeading>
-<p><affectedDocument id="..." href="...">Section3(1):</affectedDocument>
-        </p>
-    </amendmentHeading>
-    <amendmentContent>
-        <mod eid="mod1">
-            <quotedStructure eId="mod_1__qst_1" refersTo="#initialVersion">
-                <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
-or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
+        </meta>
+        <preface>
+            <docProponent refersTo="#pers28349" id="pre-pro1">Teresa Riera
+                Madurell</docProponent>, <docProponent refersTo="#pers28298" id="pre-pro2">Iratxe García Pérez</docProponent>, <docProponent refersTo="#pers4349" id="pre-pro3">Rosa Miguélez Ramos</docProponent>
+			<affectedDocument refersTo="#COM2008636" href="urn:lex:eu:commission:proposal:2008:636">COM(2008)636</affectedDocument>
+        </preface>
+        <amendmentBody>
+            <amendmentHeading>
+                <p>
                 </p>
-            </quotedStructure>
-            <quotedStructure id="mod_1__qst_2" refersTo="#newVersion">
-                <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
-or activity connected with the proceeds of crime <ins> including its concealment, possession,acquisition or 
-use </ins> and projecting it as untainted property shall be guilty of offence of money laundering.
-                </p>
-            </quotedStructure>
-        </mod>
-    </amendmentContent>
-</amendmentBody>
-</amendment>
+            </amendmentHeading>
+            <amendmentContent>
+                <mod eid="mod1">
+                    <quotedStructure eId="mod_1__qst_1" refersTo="#initialVersion">
+                        <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
+        or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
+                        </p>
+                    </quotedStructure>
+                    <quotedStructure id="mod_1__qst_2" refersTo="#newVersion">
+                        <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
+        or activity connected with the proceeds of crime <ins> including its concealment, possession,acquisition or 
+        use </ins> and projecting it as untainted property shall be guilty of offence of money laundering.
+                        </p>
+                    </quotedStructure>
+                </mod>
+            </amendmentContent>
+        </amendmentBody>
+    </amendment>
 </akomaNtoso>

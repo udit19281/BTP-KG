@@ -1,34 +1,52 @@
 <akomaNtoso xmlns="http://www.example.org/PreventionOfMoney-LaunderingAct-2005">
     <act contains="originalVersion">
-<meta>
-<identification source="#somebody"></identification>
-    <references source="...">
-        <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
-    </references>
-</meta>
-<preface>
-    <p>
-        <docType>Public Law</docType>61</p>
-    <p>
-        <docDate date="2005-07-01">Jul. 1, 2005</docDate>
-    </p>
-    <p> An <docType>Act</docType>
-        <docTitle>Prevention of Money-Laundering Act,2002 </docTitle>
-    </p>
-</preface>
-<body>
-    <section id="3">
-<num title="1">1</num>
-    <heading>Offence of Money Laundering</heading>
-    <paragraph id="sct1-par001">
-        <num title="1">(1)</num>
-        <content>
-            <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
-            or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
+        <meta>
+            <identification source="#somebody"></identification>
+            <references source="https://example.org/">
+                <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
+            </references>
+        </meta>
+        <preface>
+            <p>
+                <docType>Public Law</docType>61</p>
+            <p>
+                <docDate date="2003-01-17">Jan 17, 2003</docDate>
             </p>
-        </content>
-    </paragraph>
-</section>
-</body>
-</act>
+            <p> An <docType>Act</docType>
+                <docTitle>Prevention of Money Laundering Act, 2002</docTitle>
+            </p>
+        </preface>
+        <body>
+            <chapter id="chp2">
+                <num title="Two">Chapter II</num>
+                <heading>OFFENCE OF MONEY-LAUNDERING</heading>
+                <section id="sct3">
+                    <num title="3">3</num>
+                    <heading> Offence of money-laundering</heading>
+                    <paragraph id="sct3-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money-laundering.</p>
+                        </content>
+                    </paragraph>
+                </section>
+                <section id="sct4">
+                    <num title="4">4</num>
+                    <heading> Punishment for money-laundering</heading>
+                    <paragraph id="sct4-par001">
+                        <num title="1">(1)</num>
+                        <content>
+                            <p>Whoever commits the offence of money-laundering shall be punishable with rigorous imprisonment for a term which shall not be less than three years but which may extend to seven years and shall also be liable to fine which may extend to five lakh rupees:</p>
+                        </content>
+                    </paragraph>
+                    <paragraph id="sct4-par002">
+                        <num title="2">(2)</num>
+                        <content>
+                            <p>Provided that where the proceeds of crime involved in money-laundering relates to any offence specified under paragraph 2 of Part A of the Schedule, the provisions of this section shall have effect as if for the words "which may extend to seven years", the words "which may extend to ten years" had been substituted.</p>
+                        </content>
+                    </paragraph>
+                </section>
+            </chapter>
+        </body>
+    </act>
 </akomaNtoso>
