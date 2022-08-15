@@ -1,17 +1,32 @@
 <akomaNtoso xmlns="http://www.example.org/PreventionOfMoney-LaunderingAct-Amendment-2012">
     <amendment>
         <meta>
-            <identification source="#somebody"></identification>
-            <references source="...">
-                <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
-            </references>
             <activeRef href="link to the affected document" />
+            <!-- To-do: After workshop -->
         </meta>
+
         <preface>
-            <docProponent refersTo="#pers28349" id="pre-pro1">Teresa Riera
-                Madurell</docProponent>, <docProponent refersTo="#pers28298" id="pre-pro2">Iratxe García Pérez</docProponent>, <docProponent refersTo="#pers4349" id="pre-pro3">Rosa Miguélez Ramos</docProponent>
-			<affectedDocument refersTo="#COM2008636" href="urn:lex:eu:commission:proposal:2008:636">COM(2008)636</affectedDocument>
+            <p>
+                <legislature>Central Legislature</legislature>    
+                An <docType>Amendment</docType> No.
+                <docNumber>2</docNumber> of 2013
+                <docTitle id="ActTitle" refersTo="#TheActTitle"> Prevention of Money Laundering (Amendment) Act, 2012 </docTitle>
+                Date of Publication: <docDate date="2013-01-03" refersTo="#publicationDate">3rd January 2013</docDate>
+                Date of Commencement: <docDate date="2013-02-15" refersTo="#commencementDate">15th February 2013</docDate>
+            </p>
         </preface>
+
+        <preamble>
+			<p>
+      		An Act further to amend the Prevention of Money-laundering Act, 2002.
+	  	    </p>
+            <formula class="preambleEnacted">
+			    <p>
+			    ENACTED by Parliament in the Sixty-third Year of the Republic of India as follows:-
+			    </p>
+			</formula>
+		</preamble>
+
         <amendmentBody>
             <amendmentHeading>
                 <p>

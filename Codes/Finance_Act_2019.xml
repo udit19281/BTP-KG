@@ -1,18 +1,33 @@
 <akomaNtoso xmlns="http://www.example.org/">
     <documentCollection name="act">
+
         <meta>
+            <activeRef href="link to the affected document" />
+            <!-- To-do: After workshop -->
         </meta>
+
         <preface>
             <p>
-                <docType>Public Law</docType>
-            </p>
-            <p>
-                <docDate date="2019-08-01">Aug. 1, 2019</docDate>
-            </p>
-            <p> An <docType>Act</docType>
-                <docTitle>The Finance (No. 2) Act, 2019</docTitle>
+                <legislature>Central Legislature</legislature>    
+                An <docType>Amendment</docType> No.
+                <docNumber>23</docNumber> of 2019
+                <docTitle id="ActTitle" refersTo="#TheActTitle"> The Finance (No. 2) Act, 2019 </docTitle>
+                Date of Publication: <docDate date="2019-08-01" refersTo="#publicationDate">1st August 2019</docDate>
+                Date of Commencement: <docDate date="2019-08-01" refersTo="#commencementDate">1st August 2019</docDate>
             </p>
         </preface>
+
+        <preamble>
+			<p>
+      		An Act to give effect to the financial proposals of the Central Government for the financial year 2019-2020.
+	  	    </p>
+            <formula class="preambleEnacted">
+			    <p>
+			    ENACTED by Parliament in the Seventieth Year of the Republic of India as follows:-
+			    </p>
+			</formula>
+		</preamble>
+
         <collectionBody>
             <componentRef id="refc1" src="#act" showAs="Act"/>
             <componentRef id="refc2" src="#memorandum" showAs="Memorandum"/>
@@ -25,34 +40,53 @@
             <doc name="act">
                 <amendment>
                     <meta>
-                        <identification source="#somebody"></identification>
-                        <references source="~_...">
-                            <TLCReference xml:id="_REG" name="docType" href="http://www.example.org/originalVersion" showAs="" shortForm=""/>
-                        </references>
                         <activeRef href="link to the affected document" />
+                        <!-- To-do: After workshop -->
                     </meta>
+
                     <preface>
+                        <p>
+                            <legislature>Central Legislature</legislature>    
+                            An <docType>Amendment</docType>
+                            <docNumber>2</docNumber> of 2013 No.
+                            <docNumber>2</docNumber> of 2013
+                            <docTitle id="ActTitle" refersTo="#TheActTitle"> Prevention of Money Laundering (Amendment) Act, 2012 </docTitle>
+                            Date of Publication: <docDate date="2013-01-03" refersTo="#publicationDate">3rd January 2013</docDate>
+                            Date of Commencement: <docDate date="2013-02-15" refersTo="#commencementDate">15th February 2013</docDate>
+                        </p>
                     </preface>
 
-                    <amendmentBody>
-                        <amendmentHeading>
-                            <p>
-                                <affectedDocument id="..." href="...">Section3(1):</affectedDocument>
-                            </p>
-                        </amendmentHeading>
-                        <amendmentContent>
-                            <mod eid="mod2">
-                                <quotedStructure eId="mod_1__qst_1" refersTo="#initialVersion">
-                                    <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process  or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
-                                    </p>
-                                </quotedStructure>
-                                <quotedStructure id="mod_1__qst_2" refersTo="#newVersion">
-                                    <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process  or activity connected with the proceeds of crime <ins> including its concealment, possession,acquisition or  use </ins> and projecting it as untainted property shall be guilty of offence of money laundering.
-                                    </p>
-                                </quotedStructure>
-                            </mod>
-                        </amendmentContent>
-                    </amendmentBody>
+                <preamble>
+                    <p>
+                    An Act further to amend the Prevention of Money-laundering Act, 2002.
+                    </p>
+                    <formula class="preambleEnacted">
+                        <p>
+                        ENACTED by Parliament in the Sixty-third Year of the Republic of India as follows:-
+                        </p>
+                    </formula>
+                </preamble>
+                <amendmentBody>
+                    <amendmentHeading>
+                        <p>
+                        </p>
+                    </amendmentHeading>
+                    <amendmentContent>
+                        <mod eid="mod1">
+                            <quotedStructure eId="mod_1__qst_1" refersTo="#initialVersion">
+                                <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
+                or activity connected with the proceeds of crime and projecting it as untainted property shall be guilty of offence of money laundering.
+                                </p>
+                            </quotedStructure>
+                            <quotedStructure id="mod_1__qst_2" refersTo="#newVersion">
+                                <p>Whosoever directly or indirectly attempts to indulge or knowingly assists or knowingly is a party or is actually involved in any process 
+                or activity connected with the proceeds of crime <ins> including its concealment, possession,acquisition or 
+                use </ins> and projecting it as untainted property shall be guilty of offence of money laundering.
+                                </p>
+                            </quotedStructure>
+                        </mod>
+                    </amendmentContent>
+                </amendmentBody>
                 </amendment>
             </doc>
         </component>
@@ -102,5 +136,4 @@
             </doc>
         </component>
     </components>
-
 </akomaNtoso>
