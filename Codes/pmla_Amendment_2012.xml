@@ -8,11 +8,11 @@
         <preface>
             <p>
                 <legislature>Central Legislature</legislature>    
-                An <docType>Amendment</docType> No.
-                <docNumber>2</docNumber> of 2013
+                <docType>An Amendment</docType> 
+                <docNumber>No. 2 of 2013</docNumber>
                 <docTitle id="ActTitle" refersTo="#TheActTitle"> Prevention of Money Laundering (Amendment) Act, 2012 </docTitle>
-                Date of Publication: <docDate date="2013-01-03" refersTo="#publicationDate">3rd January 2013</docDate>
-                Date of Commencement: <docDate date="2013-02-15" refersTo="#commencementDate">15th February 2013</docDate>
+                <docDate date="2013-01-03" refersTo="#publicationDate"> <p> Date of Publication: </p> 3rd January 2013</docDate>
+                <docDate date="2013-02-15" refersTo="#commencementDate"> <p> Date of Commencement: </p> 15th February 2013</docDate>
             </p>
         </preface>
 

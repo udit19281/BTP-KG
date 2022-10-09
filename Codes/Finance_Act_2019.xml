@@ -9,11 +9,11 @@
         <preface>
             <p>
                 <legislature>Central Legislature</legislature>    
-                An <docType>Amendment</docType> No.
-                <docNumber>23</docNumber> of 2019
+                <docType>An Amendment</docType>
+                <docNumber>No. 23 of 2019 </docNumber>
                 <docTitle id="ActTitle" refersTo="#TheActTitle"> The Finance (No. 2) Act, 2019 </docTitle>
-                Date of Publication: <docDate date="2019-08-01" refersTo="#publicationDate">1st August 2019</docDate>
-                Date of Commencement: <docDate date="2019-08-01" refersTo="#commencementDate">1st August 2019</docDate>
+                <docDate date="2019-08-01" refersTo="#publicationDate"> <p> Date of Publication: </p> 1st August 2019</docDate>
+                <docDate date="2019-08-01" refersTo="#commencementDate"> <p> Date of Commencement: </p> 1st August 2019</docDate>
             </p>
         </preface>
 
